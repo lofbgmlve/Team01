@@ -87,10 +87,13 @@ public class MainController {
 	}
 	
 	
-	
+	@RequestMapping("getGit")
 	public String getGit() {
 		
 		return "getGit";
 	}
+	
+	
+	
 }
 
